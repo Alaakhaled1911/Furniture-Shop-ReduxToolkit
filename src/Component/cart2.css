@@ -1,0 +1,108 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .subcartshp {
+    color: #584e53;
+    font-weight: bold;
+    font-family: math;
+    font-size: 14px;
+  }
+  
+  .totcartshp {
+    color: #b36b7f;
+    font-family: math;
+    font-size: 15px;
+  }
+  
+  .checkout h4 {
+    color: #b36b7f;
+    font-style: italic;
+    font-family: serif;
+    margin: 20px 0;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .checkout .total {
+    background-color: #f8f1ee;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .shipcart {
+    background-color: white;
+    border-radius: 22px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    margin: 20px;
+    color: #584e53;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 14px;
+  }
+  @media (min-width: 1300px) {
+    .checkout {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+      }
+      .checkout h4 {
+        margin: 33px 80px;
+        font-size: 33px;
+      }
+    
+      .checkout .total {
+        width: 70%;
+        padding: 40px;
+      }
+    
+      .shipcart {
+        margin: 22px;
+        font-size: 16px;
+      }
+  }
+  
+  @media (min-width: 768px) {
+    .checkout {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+  
+    .checkout h4 {
+      margin: 33px 80px;
+      font-size: 33px;
+    }
+  
+    .checkout .total {
+      width: 70%;
+      padding: 40px;
+    }
+  
+    .shipcart {
+      margin: 22px auto;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 660px)
+  {
+    .maincard2 {
+   
+      width: 70%;
+    }
+  }
+  @media (max-width: 400px)
+  {
+    .cont {
+      margin: 2px;}
+      .maincard2 button {
+        padding: 6px;
+        margin: 4px;
+      }
+  }

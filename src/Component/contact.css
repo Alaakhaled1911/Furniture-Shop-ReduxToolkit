@@ -1,0 +1,35 @@
+.con{
+    margin-top:77px ;
+    margin-bottom: 70px;
+    /* background-color: #000000; */
+    /* margin-left: -66px;
+    margin-right: -66px; */
+    padding: 22px;
+    height:90vh ;
+}
+.contact{
+  margin-top: 44px;
+   margin-bottom: 22px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 33px;
+    
+    
+   
+}
+.FOR{
+    width:50% ;
+}
+.ll{
+    width:50% ;
+}
+.txt{
+    text-align: center;
+    margin-top: 56px;
+}
+p{
+    color: grey;
+}

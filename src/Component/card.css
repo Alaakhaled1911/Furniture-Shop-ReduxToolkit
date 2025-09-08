@@ -1,0 +1,46 @@
+.cardd {
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .cardd h1 {
+    color: #c45b91;
+    font-size: 27px;
+    margin-bottom: 16px;
+  }
+  
+  .cardd p {
+    
+   
+    margin-bottom: 1rem;
+    font-size: 17px;
+  }
+  
+  @media (max-width: 768px) {
+    .cardd {
+      margin: 0 20px;
+      padding: 0;
+    }
+  
+    .cardd h1 {
+      font-size: 20px;
+    }
+  
+    .cardd p {
+      font-size: 19px;
+      
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardd h1 {
+      font-size: 18px;
+    }
+  
+    .cardd p {
+      font-size: 12px;
+    }
+  }

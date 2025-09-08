@@ -1,0 +1,145 @@
+                         .me-auto{
+  margin:20px auto; ;
+}
+.product-grid .conta{
+  font-family: math;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 40px;
+    background-color: white;
+    margin: -10px 63px;
+   
+  }
+  .conta{
+    background-color: rgb(57, 55, 55);
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fafafa; 
+    margin-top: 60px;
+    border-radius: 32px;
+    height: 400px;
+   
+  }
+  
+  .product img {
+    
+    width: 80%;
+    border-radius: 22PX;
+    /* border: 3px solid rgb(209, 183, 183); */
+    margin-top: 36px;
+    height: 60%;
+    background-color: white;
+    
+  }
+  .product img:hover{
+    scale: 1.1;
+  }
+.product .titl{
+color: #925465;
+margin-right: 44px;
+font-family: inherit;
+font-weight: bold;
+}
+
+  .product .categ{
+    margin-right: 167px;
+    margin-bottom: 10px;
+  }
+  .product .price{
+    gap: 20px;
+    display: flex;
+    color: #925465;
+    font-weight: 500;
+  }
+  .product .newprice{
+ font-size: 18px;
+    
+  }
+  .product .oldprice{
+    font-weight: 400;
+    font-size: 16px;
+    color: #2b2a2a;
+    text-decoration: line-through;
+  }
+  
+.icn{
+
+}
+.add{
+  font-size: 17px;
+}
+.add:hover{
+  
+  color:rgb(63, 62, 62);
+scale: 1.1;
+ 
+}
+.prod .navbar-nav{
+  background-color: transparent;
+}
+.prod .navbar-nav a {
+  display: block;
+ border: 1px solid;
+  border-radius: 21px !important;
+  margin: 28px !important;
+  padding: 10px 26px !important;
+  color: gray;
+}
+.prod .all{
+  background-color: #ebc1c8;
+  color: white !important;
+}
+.prod .navbar-nav a:hover{
+  background-color: #ebc1c8;
+  color: white !important;
+}
+.prod .all:hover{
+  color: gray !important;
+}
+@media (max-width: 1300px) {
+  .product-grid .conta{
+ 
+      grid-template-columns: repeat(3, auto);
+      gap: 20px; 
+
+}
+}
+@media (max-width: 940px) {
+  .product-grid .conta{
+ 
+      grid-template-columns: repeat(2, auto);
+      gap: 20px; 
+
+}
+}
+@media (max-width: 660px) {
+  .product-grid .conta{
+ 
+      grid-template-columns: repeat(2, auto);
+      gap: 12px; 
+      margin: -10px 40px;
+
+}
+}
+@media (max-width: 640px) {
+  .product-grid .conta{
+ 
+      grid-template-columns: repeat(1, auto);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      margin:0 ;
+  }
+
+
+.conta {
+  margin: 20px auto;
+}
+
+
+}

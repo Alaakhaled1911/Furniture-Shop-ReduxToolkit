@@ -1,0 +1,29 @@
+.iconsocial img{
+    width:30px ;
+   
+}
+.iconsocial {
+margin: 22px;
+border: 1px solid  rgb(230, 222, 226);
+padding: 9px;
+border-radius: 10px;
+font-family: math;
+font-size: 17px;
+ background-color: #fff;
+    box-shadow: 0 4px 8px rgba(171, 26, 118, 0.1);
+}
+.iconsocial span{
+    margin: 22px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 101px;
+}
+.ms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
