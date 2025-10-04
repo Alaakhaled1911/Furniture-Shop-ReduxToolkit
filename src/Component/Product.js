@@ -80,7 +80,7 @@ const Product = ({ products }) => {
               <div className="newprice">{item.price}$</div>
               <div className="oldprice">{item.price}$</div>
               <p
-                className="add"
+                className="add cursor-pointer"
                 onClick={() =>
                   dispatch(
                     addtoCart({

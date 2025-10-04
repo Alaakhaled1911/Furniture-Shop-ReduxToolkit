@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { IoMdClose } from "react-icons/io";
 import "./cartitem.css";
@@ -19,7 +18,7 @@ const Cartitem = () => {
 
   return (
     <>
-      <div className="cartitem1">
+      <div className="cartitem1 text-center">
         <div>
           <h2>Shopping Cart</h2>
         </div>
@@ -105,9 +104,8 @@ const Cartitem = () => {
         >
           <button
             style={{
-              marginTop: "8px",
-              marginLeft: "7px",
-              display: "flex",
+              marginLeft: "17px",
+
               alignItems: "center",
               gap: "4px",
               color: "gray",

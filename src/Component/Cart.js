@@ -101,7 +101,7 @@ const Cart = () => {
             </button>
           </div>
           <button
-            className="cartadd"
+            className="cartadd cursor-pointer"
             onClick={() => {
               dispatch(
                 addtoCart({
