@@ -47,28 +47,6 @@ const Login = () => {
       });
   };
 
-  const handleGithubLogin = (e) => {
-    e.preventDefault();
-    signInWithPopup(auth, githubProvider)
-      .then((result) => {
-        const user = result.user;
-        dispatch(
-          adduser({
-            id: user.id,
-            name: user.displayName,
-            email: user.email,
-            image: user.photoURL,
-          })
-        );
-        setTimeout(() => {
-          navigate("/");
-        }, 1600);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  };
-
   const handleSignOut = (e) => {
     e.preventDefault();
     signOut(auth)
@@ -86,7 +64,10 @@ const Login = () => {
       <Header />
       <div className="login">
         <div className="ms">
-          <div className="iconsocial" onClick={handleGoogleLogin}>
+          <div
+            className="iconsocial cursor-pointer"
+            onClick={handleGoogleLogin}
+          >
             <img src={google} alt="g" />
             <span>Sign in With Google</span>
           </div>
