@@ -2,6 +2,10 @@
 
 A modern, responsive furniture e-commerce application built with React, Redux Toolkit, and Bootstrap.
 
+
+<img width="1905" height="911" alt="image" src="https://github.com/user-attachments/assets/f423c107-c7c9-4796-9fb6-64f642727ce2" />
+
+
 ## 🚀 Features
 
 - **Modern UI/UX**: Clean, responsive design with smooth animations
@@ -35,7 +39,7 @@ A modern, responsive furniture e-commerce application built with React, Redux To
 
 ```bash
 git clone <repository-url>
-cd proj
+
 ```
 
 2. Install dependencies:
@@ -55,31 +59,11 @@ npm start
 ## 📦 Available Scripts
 
 - `npm start` - Runs the app in development mode
-- `npm build` - Builds the app for production
-- `npm test` - Launches the test runner
-- `npm eject` - Ejects from Create React App (one-way operation)
 
-## 🎨 Component Architecture
 
-### Layout Components
+=
 
-- **Header**: Navigation bar with cart and user info
-- **Footer**: Site footer with links and contact info
 
-### Page Components
-
-- **Home**: Main landing page with hero section and featured products
-- **About**: Company information and features
-
-### Product Components
-
-- **ProductList**: Grid display of products with filtering
-- **BestSellers**: Featured products carousel
-
-### UI Components
-
-- **HeroSection**: Landing page hero with call-to-action
-- **InfoSection**: Feature highlights grid
 
 ## 🔧 State Management
 
@@ -118,29 +102,7 @@ The application is fully responsive with breakpoints:
 - Loading states and error handling
 - Responsive navigation
 
-## 🔮 Future Enhancements
 
-- [ ] Real backend API integration
-- [ ] User authentication with JWT
-- [ ] Payment processing
-- [ ] Order management
-- [ ] Product reviews and ratings
-- [ ] Wishlist functionality
-- [ ] Advanced search and filters
-- [ ] Multi-language support
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📞 Support
-
-For support, email support@furniturestore.com or create an issue in the repository.
