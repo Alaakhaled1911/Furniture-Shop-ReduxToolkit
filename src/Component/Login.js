@@ -1,6 +1,6 @@
 import Header from "./Header";
 import google from "../img/google.png";
-import github from "../img/git.png";
+
 import Button from "react-bootstrap/Button";
 import { ToastContainer, toast } from "react-toastify";
 import "./login.css";
@@ -89,15 +89,6 @@ const Login = () => {
           <div className="iconsocial" onClick={handleGoogleLogin}>
             <img src={google} alt="g" />
             <span>Sign in With Google</span>
-          </div>
-          <Button variant="secondary" onClick={handleSignOut}>
-            Logout
-          </Button>
-        </div>
-        <div className="ms">
-          <div className="iconsocial" onClick={handleGithubLogin}>
-            <img src={github} alt="g" />
-            <span>Sign in With GitHub</span>
           </div>
           <Button variant="secondary" onClick={handleSignOut}>
             Logout
