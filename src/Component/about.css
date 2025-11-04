@@ -1,5 +1,5 @@
 .about {
-    margin: 120px;
+    margin: 70px ;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
@@ -84,6 +84,7 @@ margin-top: 20px;
     .about {
       flex-direction: row;
       justify-content: space-between;
+      margin: 0;
     }
   
     .imgabout1 .imgabout2 {

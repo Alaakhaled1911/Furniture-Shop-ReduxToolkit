@@ -29,7 +29,7 @@ const Footer = () => {
             <p>e-mail: Laptop@gmail.com</p>
           </div>
         </div>
-        <div>
+        <div class="profile">
           <h2 class="text-2xl font-semibold text-white mb-4">Profile</h2>
           <div class="flex flex-col gap-2 text-base">
             <p class="flex items-center gap-3">

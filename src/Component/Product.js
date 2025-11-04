@@ -130,7 +130,7 @@ const Product = ({ products }) => {
         whileInView="animate"
         className="prod"
       >
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <div expand="lg" className="bg-body-tertiary">
           <Container>
             <Nav className="me-auto">
               <Nav.Link onClick={handleAllProductsClick} className="all">
@@ -146,7 +146,7 @@ const Product = ({ products }) => {
               ))}
             </Nav>
           </Container>
-        </Navbar>
+        </div>
         <motion.div className="product-grid">
           <div className="conta">{productsList}</div>
 
