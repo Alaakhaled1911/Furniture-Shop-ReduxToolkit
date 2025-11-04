@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     align-content: center;
 }
 
@@ -54,6 +54,7 @@
 }
 .cont .twxt .nameofauthor{
     color:gray
+    
 }
 .buts{
     display: flex;
@@ -118,4 +119,24 @@
       padding:5px;
       margin: 5px;
     }
+    
+  
+  }
+  @media (max-width:460px){
+     .photo img {
+      width: 70%;
+    
+      
+
+    }
+    .cont .twxt .nameofauthor{
+    color:gray;
+    font-size: 13px;
+    
+}
+
+ .pp {
+  font-size: 13px;
+    margin-left: 10px;
+}
   }
