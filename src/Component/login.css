@@ -11,6 +11,7 @@ font-family: math;
 font-size: 17px;
  background-color: #fff;
     box-shadow: 0 4px 8px rgba(171, 26, 118, 0.1);
+    white-space: nowrap;
 }
 .iconsocial span{
     margin: 22px;
