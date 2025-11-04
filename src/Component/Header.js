@@ -23,9 +23,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/">
-                <Nav.Link href="#home">Home</Nav.Link>
-              </Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="#about">AboutUs</Nav.Link>
               <Nav.Link href="#products">Products</Nav.Link>
 
@@ -80,7 +78,7 @@ const Header = () => {
                       height: "30px",
                       width: "30px",
                       marginTop: "4px",
-                      marginLeft: "-2px",
+                      marginLeft: "3px",
                     }}
                   />
                 </Link>
