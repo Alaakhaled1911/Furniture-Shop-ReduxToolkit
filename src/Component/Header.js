@@ -24,8 +24,11 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#about">AboutUs</Nav.Link>
-              <Nav.Link href="#products">Products</Nav.Link>
+              <Nav.Link href="/#about" className="nav-link">
+                AboutUs
+              </Nav.Link>
+
+              <Nav.Link href="/#products">Products</Nav.Link>
 
               <Link to="/shipping">
                 <div style={{ position: "relative" }}>
