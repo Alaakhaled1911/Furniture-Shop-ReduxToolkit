@@ -68,7 +68,7 @@ const Product = ({ products }) => {
       <div key={item.id}>
         <Card className="product" style={{ width: "18rem" }}>
           <img
-            src={item.image}
+            src={item.image || "/placeholder.svg"}
             alt={item.title}
             onClick={() => handleClick(item)}
           />
@@ -133,13 +133,17 @@ const Product = ({ products }) => {
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
             <Nav className="me-auto">
-              <Nav.Link onClick={handleAllProductsClick} className="all">
+              <Nav.Link
+                onClick={handleAllProductsClick}
+                className={selectedCategory === null ? "all active" : "all"}
+              >
                 All Products
               </Nav.Link>
               {categories.map((category) => (
                 <Nav.Link
                   key={category}
                   onClick={() => handleCategoryClick(category)}
+                  className={selectedCategory === category ? "active" : ""}
                 >
                   {category}
                 </Nav.Link>

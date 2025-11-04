@@ -89,12 +89,15 @@ scale: 1.1;
   padding: 10px 26px !important;
   color: gray;
 }
-.prod .all{
+
+.prod .navbar-nav a:hover{
   background-color: #ebc1c8;
   color: white !important;
 }
-.prod .navbar-nav a:hover{
-  background-color: #ebc1c8;
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  border: 1px solid;
+    background-color: #ebc1c8;
   color: white !important;
 }
 .prod .all:hover{
